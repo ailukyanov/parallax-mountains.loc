@@ -1,0 +1,28 @@
+/*------------------------------ <RESET, COMMON PARAMETERS> ------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*------------------------------ </RESET, COMMON PARAMETERS> -----------------------------*/
+
+/*------------------------------ <WRAPPER> ------------------------------*/
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+/*------------------------------ </WRAPPER> -----------------------------*/

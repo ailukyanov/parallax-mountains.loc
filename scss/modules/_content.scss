@@ -1,0 +1,36 @@
+/*------------------------------ <CONTENT> ------------------------------*/
+.content {
+  position: relative;
+
+  &__body {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  &__title {
+    font-size: 200px;
+  }
+
+  &__subtitle {
+    font-size: 100px;
+  }
+
+  &__article {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    font-size: 18px;
+    line-height: 24px;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+/*------------------------------ </CONTENT> -----------------------------*/
